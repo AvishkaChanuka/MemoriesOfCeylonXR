@@ -161,7 +161,7 @@ MonoBehaviour:
   LayerMask:
     serializedVersion: 2
     m_Bits: 1
-  shootingButton: 134217728
+  shootingButton: 67108864
   linePrefab: {fileID: 7816988141005662739, guid: 6200acc84fb825a4983ab21ed5bac0cb, type: 3}
   impactEffectPrefab: {fileID: 8162125516462426144, guid: 91ae51c7a1b2b31468001c1b682988d7, type: 3}
   shootingPoint: {fileID: 9080120564670597660}
