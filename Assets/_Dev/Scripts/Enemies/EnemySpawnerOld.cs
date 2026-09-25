@@ -1,7 +1,7 @@
 using UnityEngine;
 using Meta.XR.MRUtilityKit;
 
-public class EnemySpawner : MonoBehaviour
+public class EnemySpawnerOld : MonoBehaviour
 {
     [SerializeField]
     private GameObject enemyPrefab;

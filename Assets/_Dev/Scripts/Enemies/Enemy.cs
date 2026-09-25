@@ -18,4 +18,11 @@ public class Enemy : MonoBehaviour
             agent.speed = speed;
         }
     }
+
+    public void Kill()
+    {
+        agent.enabled = false;
+
+        Destroy(gameObject);
+    }
 }
