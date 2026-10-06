@@ -5,14 +5,14 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Home.unity
     guid: c38e24f3dae9d9d44a59e21343efdf8a
   - enabled: 1
     path: Assets/Scenes/CHRONICLES.unity
     guid: 957791c64e600cd45978422cb7a42ed1
   - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/Game Level.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 0
     path: Assets/Scenes/TestZone.unity
