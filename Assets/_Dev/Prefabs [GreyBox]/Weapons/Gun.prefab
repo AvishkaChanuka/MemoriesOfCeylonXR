@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1861846940767427510}
   - component: {fileID: 2041738227919590665}
   - component: {fileID: 7701005796082424766}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Magazine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -67,7 +67,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 5e855254e1552ec4fbb9fa6699620654, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -122,7 +122,8 @@ GameObject:
   m_Component:
   - component: {fileID: 6997100343623415843}
   - component: {fileID: -6133814738471683357}
-  m_Layer: 0
+  - component: {fileID: 5096380049962900037}
+  m_Layer: 7
   m_Name: Gun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -177,6 +178,19 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   damageLevel: 40
+--- !u!114 &5096380049962900037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5558133271713571508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd0f1d4279e757f49b2fbe4e2a3c3df3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WeaponBase
+  data: {fileID: 11400000, guid: 6832113dee51cc34893b2e04f91b2c34, type: 2}
 --- !u!1 &6768889406490892817
 GameObject:
   m_ObjectHideFlags: 0
@@ -189,7 +203,7 @@ GameObject:
   - component: {fileID: 995323102122787183}
   - component: {fileID: 8972796916664647727}
   - component: {fileID: 8543890209664304868}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Frame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -244,7 +258,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 5e855254e1552ec4fbb9fa6699620654, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -298,7 +312,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9080120564670597660}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ShootingPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -329,7 +343,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6074989406088394471}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Visuals
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -363,7 +377,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8348217051781061763}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Gameplay
   m_TagString: Untagged
   m_Icon: {fileID: 0}

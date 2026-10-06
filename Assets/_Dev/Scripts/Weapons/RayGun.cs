@@ -27,6 +27,14 @@ public class RayGun : MonoBehaviour
 
     public int damageLevel = 40;
 
+    private void OnEnable()
+    {
+        WeaponBase wb = GetComponent<WeaponBase>();
+        if (wb != null && WeaponManager.Instance != null)
+            WeaponManager.Instance.SetActiveWeapon(wb);
+    }
+
+
 
     private void Update()
     {
